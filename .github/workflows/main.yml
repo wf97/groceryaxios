@@ -30,8 +30,8 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: dist
-        - name: Deploy to Firebase
-          uses: 57f38/firebase-action@master
+      - name: Deploy to Firebase
+        uses: 57f38/firebase-action@master
         with:
           args: deploy --only hosting
         env:
