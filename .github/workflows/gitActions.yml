@@ -35,9 +35,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Deploy to Firebase
-        uses: 57f38/firebase-action@master
+        uses: w9jds/firebase-action@master
         with:
-          args: deploy --project countries-57f38 --only hosting
+          args: deploy --project bt3103-2020 --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
