@@ -10,7 +10,7 @@ export default{
           labels:[],
           datasets: [
             {
-              label: 'Average ridership ins 2016',
+              label: 'Average ridership hello',
                data:[],
               //backgroundColor:['aqua','lightgreen','red','orange'],
               borderWidth:0.5,
