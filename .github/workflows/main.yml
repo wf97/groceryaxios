@@ -2,7 +2,8 @@ name: Build and Deploy
 on:
   push:
     branches:
-      g- master
+      - master
+
 jobs:
   build:
     name: Build
